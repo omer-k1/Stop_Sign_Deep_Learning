@@ -29,7 +29,7 @@ Eğitim süresince hata payının (loss) düşüşünü ve doğruluk oranının 
 ![Results](demo/runs/detect/train/results.png)
 
 ### 3. F1 ve Hassasiyet Eğrileri
-![F1 Curve](demo/runs/detect/train/F1_curve.png)
+![F1 Curve](demo/runs/detect/train/BoxF1_curve.png)
 
 
 
