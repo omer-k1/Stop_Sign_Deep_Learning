@@ -1,0 +1,15 @@
+# Python sanal ortamını engelle (Görselindeki .venv klasörü)
+.venv/
+__pycache__/
+*.pyc
+
+# Büyük veriseti klasörlerini engelle
+# (Roboflow'dan indirdiğin resimlerin internete yüklenmesini istemeyiz)
+demo/Stop-Sign-1/
+
+# Büyük model ağırlıklarını engelle (100MB+ dosyalar sorun çıkarabilir)
+*.pt
+
+# İşletim sistemi dosyaları
+.DS_Store
+Thumbs.db
