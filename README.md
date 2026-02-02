@@ -1,6 +1,35 @@
 # Stop_Sign_Deep_Learning
 
+---
+🛠️ Kullanılan Teknolojiler ve Kütüphaneler
+Projenin çalışması için bilgisayarınızda Python yüklü olmalıdır. Gerekli kütüphaneler:
 
+Ultralytics (YOLOv8/v11): Nesne tespiti mimarisi.
+
+OpenCV: Görüntü işleme ve video akışı yönetimi.
+
+PyTorch: Modelin eğitimi için kullanılan derin öğrenme kütüphanesi.
+
+---
+Kullanım
+
+Modeli eğitmek:  train.py
+
+Modeli test etmek:  test.py
+
+---
+Proje Sonuçları ve Analiz
+
+### 1. Karmaşıklık Matrisi (Confusion Matrix)
+Bu tablo, modelin dur levhasını ne kadar doğru bildiğini ve başka nesnelerle karıştırıp karıştırmadığını gösterir.
+![Confusion Matrix](demo/runs/detect/train/confusion_matrix.png)
+
+### 2. Eğitim Metrikleri (Results)
+Eğitim süresince hata payının (loss) düşüşünü ve doğruluk oranının (mAP) artışını buradan takip edebilirsiniz.
+![Results](demo/runs/detect/train/results.png)
+
+### 3. F1 ve Hassasiyet Eğrileri
+![F1 Curve](demo/runs/detect/train/F1_curve.png)
 
 
 
